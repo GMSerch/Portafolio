@@ -5,4 +5,10 @@
     font-size: 16px;
 }
 
+@media screen and (min-width:365px) and (max-width:767px) {
+    .cabezera__link{
+        font-size: 14px;
+    }
+}
+
 

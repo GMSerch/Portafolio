@@ -3,7 +3,7 @@
     display: flex;
 }
 
-@media screen and (min-width:365px){
+@media screen and (min-width:365px) and (max-width:767px){
    
 }
 

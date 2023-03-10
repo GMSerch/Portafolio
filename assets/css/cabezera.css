@@ -6,3 +6,9 @@
     padding: 1rem;
     align-items: center;
 }
+
+@media screen and (min-width:365px) and (max-width:767px){
+    .cabezera{
+        width: 100vw;
+    }
+}
