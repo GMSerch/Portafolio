@@ -1,0 +1,10 @@
+@media screen and (max-width:1440px){
+    .cabezera__titulo{
+        font-family: var(--fuente);
+        color: #464646;
+        font-weight: 900;
+        margin-left: 1rem;
+        font-size: medium;
+    }
+    
+}

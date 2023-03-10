@@ -1,0 +1,8 @@
+.cabezera{
+    background: rgb(125,255,169);
+    background: linear-gradient(180deg, rgba(125,255,169,1) 0%, rgba(125,239,255,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
