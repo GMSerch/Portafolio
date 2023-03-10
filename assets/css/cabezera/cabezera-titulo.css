@@ -1,10 +1,13 @@
-@media screen and (max-width:1440px){
-    .cabezera__titulo{
+.cabezera__titulo{
         font-family: var(--fuente);
         color: #464646;
         font-weight: 900;
         margin-left: 1rem;
         font-size: medium;
     }
-    
+
+@media screen and (min-width:365px) {
+    .cabezera__titulo{
+        initial-value: "Sergio Luis F.Q";
+    }
 }

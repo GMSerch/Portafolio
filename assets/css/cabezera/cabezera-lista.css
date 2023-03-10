@@ -1,7 +1,11 @@
-@media screen and (max-width:1440px){
-    .cabezera__lista{
-        list-style: none;
-        display: flex;
-    }
-    
+.cabezera__lista{
+    list-style: none;
+    display: flex;
 }
+
+@media screen and (min-width:365px){
+   
+}
+
+    
+

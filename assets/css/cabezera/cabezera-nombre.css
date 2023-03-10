@@ -1,9 +1,5 @@
-@media screen and (max-width:1440px){
-    
-    .cabezera__nombre{
+.cabezera__nombre{
     display: flex;
     margin-left: 2.5rem;
     align-items: center;
-    }
-
 }
