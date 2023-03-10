@@ -2,3 +2,13 @@
     --texto_color: #464646;
     --fuente:'Rubik', sans-serif
 }
+
+.negritas{
+    font-weight: 900;
+}
+
+@media screen and (min-width:365px) {
+    .negritas{
+        font-size: 1.30rem;
+    }
+}

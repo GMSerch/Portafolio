@@ -1,0 +1,13 @@
+.hero__items{
+    margin: 0 .2rem;
+    box-sizing: border-box;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+@media screen and (min-width:365px) and (max-width:767px){
+    .hero__items{
+        font-size: 14px;
+    }
+}

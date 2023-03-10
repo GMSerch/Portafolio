@@ -1,0 +1,12 @@
+.hero{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 1.25rem 1.35rem;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+}
+
+
+

@@ -1,0 +1,4 @@
+.hero__textos{
+    font-family: var(--fuente);
+    color: var(--texto_color);
+}
