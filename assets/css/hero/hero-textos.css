@@ -1,4 +1,27 @@
 .hero__textos{
     font-family: var(--fuente);
     color: var(--texto_color);
+    margin-bottom: .2rem;
+    text-align: justify;
+    transition: all 0.32s ;
+    animation: tracking-in-expand 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
+.hero__textos:nth-child(3){
+    font-size: 14px;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+

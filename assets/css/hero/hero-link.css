@@ -1,4 +1,18 @@
 .hero__link{
     text-decoration: none;
-    color:var(--texto_color)
+    color:var(--texto_color);
+    transition: all .5s ease-in-out;
+}
+
+.hero__link:hover{
+    animation: brillo 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+}
+
+@keyframes brillo {
+    0%{
+        text-shadow: 0 0 10px rgb(0, 255, 85);
+    }
+    100%{
+        text-shadow: 0 0 15px rgb(219, 0, 248);
+    }
 }
