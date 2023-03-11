@@ -1,6 +1,6 @@
 .hero__imagen{
-    width: 96px;
-    height: 96px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     object-fit: cover;
     animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
