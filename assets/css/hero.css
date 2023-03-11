@@ -8,5 +8,8 @@
     font-family: var(--fuente);
 }
 
-
+.hero__wave{
+    width: 100vw;
+    position: relative;
+}
 
