@@ -1,6 +1,4 @@
-@import '../animaciones.css';
 .sobre__texto{
     color: var(--texto_color);
     text-align: justify;
-    animation: expancion 5s alternate;
 }

@@ -1,0 +1,10 @@
+.formacion__card{
+    width: 80%;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,7 @@
+.formacion__nombre, .formacion__fecha{
+    text-align: center;
+}
+
+.formacion__nombre{
+    font-size: 1.2rem;
+}
