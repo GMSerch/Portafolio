@@ -1,0 +1,10 @@
+.hobies__card{
+    display: block;
+    width: 40vw;
+    height: calc(30vw);
+    box-sizing: border-box;
+    margin: 1rem 1rem 0 1rem;
+    background: #ffffff;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+}
