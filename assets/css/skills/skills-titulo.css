@@ -1,0 +1,5 @@
+.skills__tituloP{
+    position: absolute;
+    transform: translateY(-20px);
+    color:var(--texto_color)
+}
