@@ -9,7 +9,11 @@
       opacity: 0;
     }
     50%{
-      transform: translateX(100px);
+      transform: translateX(200px)
+      rotate(360deg);
+    }
+    70%{
+      transform: skewX(-20deg);
     }
     100% {
       transform: translateX(0);
