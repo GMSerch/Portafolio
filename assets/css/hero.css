@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     padding: 1.25rem 1.35rem;
     flex-direction: column;
@@ -9,7 +9,7 @@
 }
 
 .hero__wave{
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
