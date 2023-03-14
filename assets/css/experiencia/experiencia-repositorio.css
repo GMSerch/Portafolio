@@ -1,0 +1,13 @@
+.experiencia__repositorio{
+    margin: 0.5rem .5rem 0 0;
+    background-color: white;
+    color:#2A7AE4;
+    border-radius: 5px;
+    padding: .5rem;
+    border: none;
+    box-shadow: 
+    -1px 1px 0 #2A7AE4,
+    1px -1px 0 #2A7AE4,
+    -1px -1px 0 #2A7AE4,
+    1px 1px 0 #2A7AE4;
+}
