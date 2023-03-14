@@ -2,3 +2,7 @@
     color:var(--texto_color);
     text-align: center;
 }
+
+.experiencia__texto{
+    font-size: 1.2rem;
+}

@@ -1,5 +1,5 @@
 .sobre__texto{
-    color: var(--texto_color);
+    color: #000000;
     text-align: justify;
     box-sizing: border-box;
 }

@@ -3,7 +3,7 @@
     width: 100%;
     flex-direction: column;
     box-sizing: border-box;
-    background: rgb(125,255,169);
+    background: #7dffa9;
     background: linear-gradient(180deg, rgba(125,255,169,1) 0%, rgba(125,239,255,1) 100%);
     padding: 1.5rem;
 }
