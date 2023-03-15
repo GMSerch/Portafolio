@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/skills/skills__estilos.css" />
     <link rel="stylesheet" href="assets/css/hobies/hobies__estilos.css" />
     <link rel="stylesheet" href="assets/css/formacion/formacion__estilos.css" />
+    <link rel="stylesheet" href="assets/css/contacto/contacto__estilos.css" />
+    <link rel="stylesheet" href="assets/css/piePagina.css">
     <link
       rel="stylesheet"
       href="assets/css/experiencia/experiencia__estilos.css"
@@ -399,8 +401,61 @@
             ><button class="experiencia__demo">Demo</button>
           </div>
         </div>
+
+        <div class="hero__wave" style="height: 150px; overflow: hidden">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(125,255,169,1)"
+            ></path>
+          </svg>
+        </div>
+
       </section>
+
+      <form action="#" class="contacto" method="post">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p class="contacto__texto">
+          ¿Quieres contactarme?<br />
+          Complete el siguiente formulario y me pondré en contacto con usted lo
+          antes posible.
+        </p>
+        <label for="Nombre" class="contacto__labelNombre">Nombre</label>
+        <input
+          type="text"
+          class="contacto__inputNombre"
+          id="Nombre"
+          title="Nombre"
+        />
+        <label for="Correo" class="contacto__labelCorreo">E-mail</label>
+        <input 
+        type="text" 
+        class="contacto__inputCorreo" 
+        id="Correo"
+        />
+        <input 
+        type="text" 
+        class="contacto__inputContacto"
+        placeholder="Contacto" 
+        />
+        <textarea 
+        name="" 
+        id="" 
+        cols="30" 
+        rows="10" 
+        class="contacto__inputMensaje" 
+        placeholder="Mensaje"></textarea>
+        <button type="submit" class="contacto__boton" value="Enviar">Enviar</button>
+      </form>
     </main>
+
+    <footer class="piePagina">
+      <h2 class="piePagina__texto">Desarrollado por Sergio Luis Flores Quiroz <br> 2023</h2>
+    </footer>
 
     <script src="assets/javascript/nombreD.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

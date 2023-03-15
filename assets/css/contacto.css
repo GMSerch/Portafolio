@@ -1,0 +1,15 @@
+.contacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2rem;
+    background: linear-gradient(180deg, rgba(125,255,169,1) 0%, rgba(125,239,255,1) 100%);
+}
+
+.contacto input{
+    margin: .5rem 0;
+    height: 2.5rem;
+    border-radius: 6px;
+}

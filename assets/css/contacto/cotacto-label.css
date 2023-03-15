@@ -1,0 +1,9 @@
+.contacto__labelNombre, .contacto__labelCorreo{
+    color: #2A7AE4;
+    position: relative;
+    font-size: .6rem;
+    transform: 
+    translate(10px, 22px)
+    ;
+}
+
