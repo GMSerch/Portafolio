@@ -14,3 +14,10 @@
     box-shadow: 5px 10px 20px #a1a1a1;
 
 }
+
+@media screen and (min-width: 768px) {
+    .experiencia__contenedor{
+        width: 75vw;
+        height: 50vw;
+    }
+}

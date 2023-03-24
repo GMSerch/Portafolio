@@ -79,8 +79,12 @@
           ></path>
         </svg>
       </div>
+
+      <!-- ******************************** Seccion Hero *********************************** -->
+
       <section class="hero">
         <img src="assets/img/yo.jpeg" alt="" class="hero__imagen" />
+        <div>
         <p class="hero__textos negritas">
           Hola, mi nombre es Sergio Luis Flores Quiroz y soy un programador web
           frontend en formación y me apasiona el diseño y desarrollo de sitios
@@ -122,6 +126,7 @@
             </li>
           </ul>
         </nav>
+      </div>
       </section>
 
       <div style="height: 150px; overflow: hidden">
@@ -206,7 +211,7 @@
       <section class="hobies">
         <h2 class="hobies__titulo">Hobies</h2>
         <div class="hobies__contenedor">
-          <div class="hobies__card" data-aos="flip-right" data-aos-offset="300">
+          <div class="hobies__card" data-aos="flip-right" data-aos-offset25000">
             <img
               src="assets/img/musica.svg"
               alt="icono musica"
@@ -214,7 +219,7 @@
             />
             <h4 class="hobies__nombre">Oir musica</h4>
           </div>
-          <div class="hobies__card" data-aos="flip-right" data-aos-offset="300">
+          <div class="hobies__card" data-aos="flip-right" data-aos-offset="250">
             <img
               src="assets/img/ver serie.svg"
               alt="icono series"
@@ -222,7 +227,7 @@
             />
             <h4 class="hobies__nombre">Ver series</h4>
           </div>
-          <div class="hobies__card" data-aos="flip-right" data-aos-offset="300">
+          <div class="hobies__card" data-aos="flip-right" data-aos-offset="250">
             <img
               src="assets/img/cocina.svg"
               alt="icono Cocinar"
@@ -230,7 +235,7 @@
             />
             <h4 class="hobies__nombre">Cocinar</h4>
           </div>
-          <div class="hobies__card" data-aos="flip-right" data-aos-offset="300">
+          <div class="hobies__card" data-aos="flip-right" data-aos-offset="250">
             <img
               src="assets/img/camara.svg"
               alt="icono camara"
@@ -262,7 +267,7 @@
           <div
             class="formacion__card"
             data-aos="flip-right"
-            data-aos-offset="300"
+            
           >
             <img
               src="assets/img/formaciones/Oracle-ONE.jpg"
@@ -275,7 +280,7 @@
           <div
             class="formacion__card"
             data-aos="flip-right"
-            data-aos-offset="300"
+            
           >
             <img
               src="assets/img/formaciones/universidad html.jpg"
@@ -288,7 +293,7 @@
           <div
             class="formacion__card"
             data-aos="flip-right"
-            data-aos-offset="300"
+            
           >
             <img
               src="assets/img/formaciones/CSS3.jpg"
@@ -350,57 +355,6 @@
             ><button class="experiencia__demo">Demo</button>
           </div>
         </div>
-        <div
-          class="experiencia__contenedor"
-          data-aos="flip-right"
-          data-aos-offset="300"
-        >
-          <img
-            src="assets/img/experiencia/Encriptador.png"
-            alt=""
-            class="experiencia__imagen"
-          />
-          <h4 class="experiencia__texto">Encriptador de texto</h4>
-          <h4 class="experiencia__texto"></h4>
-          <div>
-            <button class="experiencia__repositorio">Repositorio</button
-            ><button class="experiencia__demo">Demo</button>
-          </div>
-        </div>
-        <div
-          class="experiencia__contenedor"
-          data-aos="flip-right"
-          data-aos-offset="300"
-        >
-          <img
-            src="assets/img/experiencia/Encriptador.png"
-            alt=""
-            class="experiencia__imagen"
-          />
-          <h4 class="experiencia__texto">Encriptador de texto</h4>
-          <h4 class="experiencia__texto"></h4>
-          <div>
-            <button class="experiencia__repositorio">Repositorio</button
-            ><button class="experiencia__demo">Demo</button>
-          </div>
-        </div>
-        <div
-          class="experiencia__contenedor"
-          data-aos="flip-right"
-          data-aos-offset="300"
-        >
-          <img
-            src="assets/img/experiencia/Encriptador.png"
-            alt=""
-            class="experiencia__imagen"
-          />
-          <h4 class="experiencia__texto">Encriptador de texto</h4>
-          <h4 class="experiencia__texto"></h4>
-          <div>
-            <button class="experiencia__repositorio">Repositorio</button
-            ><button class="experiencia__demo">Demo</button>
-          </div>
-        </div>
 
         <div class="hero__wave" style="height: 150px; overflow: hidden">
           <svg
@@ -417,6 +371,8 @@
 
       </section>
 
+      <!-- ******************************** Contacto ******************************************* -->
+
       <form action="#" class="contacto" method="post">
         <h2 class="contacto__titulo">Contacto</h2>
         <p class="contacto__texto">
@@ -430,17 +386,20 @@
           class="contacto__inputNombre"
           id="Nombre"
           title="Nombre"
+          required
         />
         <label for="Correo" class="contacto__labelCorreo">E-mail</label>
         <input 
         type="text" 
         class="contacto__inputCorreo" 
         id="Correo"
+        required
         />
         <input 
         type="text" 
         class="contacto__inputContacto"
         placeholder="Contacto" 
+        required
         />
         <textarea 
         name="" 
@@ -448,10 +407,14 @@
         cols="30" 
         rows="10" 
         class="contacto__inputMensaje" 
-        placeholder="Mensaje"></textarea>
+        placeholder="Mensaje"
+        required
+        ></textarea>
         <button type="submit" class="contacto__boton" value="Enviar">Enviar</button>
       </form>
     </main>
+
+    <!-- ******************************** Pie de Pagina ************************************* -->
 
     <footer class="piePagina">
       <h2 class="piePagina__texto">Desarrollado por Sergio Luis Flores Quiroz <br> 2023</h2>
