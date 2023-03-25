@@ -2,3 +2,9 @@
     list-style: none;
     display: flex;
 }
+
+@media screen and (min-width:1024px){
+    .hero__lista{
+        font-size: 1.5rem;
+    }
+}

@@ -3,3 +3,9 @@
     text-align: justify;
     box-sizing: border-box;
 }
+
+@media screen and (min-width:1024px) {
+    .sobre__texto{
+        font-size: 1.5rem;
+    }
+}
