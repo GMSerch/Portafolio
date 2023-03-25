@@ -5,3 +5,9 @@
     flex-wrap: wrap; 
     width: 100%;
 }
+
+@media screen and (min-width:1024px) {
+    .hobies__contenedor{
+        gap: 2rem;
+    }
+}

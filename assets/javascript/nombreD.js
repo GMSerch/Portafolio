@@ -15,4 +15,12 @@ function cambioNombre(){
     }
 }
 
+const sobreMi = document.getElementById("data-link-sobre");
+const skills = document.getElementById("data-link-skills");
+const hobbies = document.getElementById("data-link-hobbies");
+const formacion = document.getElementById("data-link-formacion");
+const proyectos = document.getElementById("data-link-proyectos");
+
+
+ 
 

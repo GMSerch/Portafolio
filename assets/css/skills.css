@@ -8,3 +8,9 @@
     box-sizing: border-box;
     padding-top: 2.5rem;
 }
+
+@media screen and (min-width:1024px) {
+    .skills{
+        gap:2rem;
+    }
+}

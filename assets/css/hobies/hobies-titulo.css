@@ -1,4 +1,11 @@
 .hobies__titulo{
     text-align: center;
-    color:var(--texto_color)
+    color:var(--texto_color);
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .hobies__titulo{
+        font-size: 2.5rem;
+    }
 }

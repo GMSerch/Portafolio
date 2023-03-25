@@ -3,3 +3,10 @@
     transform: translateY(-20px);
     color:var(--texto_color)
 }
+
+
+@media screen and (min-width:1024px){
+    .skills__tituloP{
+        font-size: 2.5rem;
+    }
+}
