@@ -1,9 +1,8 @@
 
-
 const HomePage = () =>{
     return (
-        <div>Hola Mundo</div>   
-    )
+        <div>datos</div>
+    )  
        
     
 }
